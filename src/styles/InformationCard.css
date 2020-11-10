@@ -1,0 +1,26 @@
+.InformationCard {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+  border-radius: 8px;
+  width: 400px;
+  height: 600px;
+  border: 1px;
+}
+
+.InformationCard .NumberInput {
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+}
+
+.InformationCard .GoButton {
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+}
+
+.InformationCard .RestaurantName {
+  width: 20px;
+}
