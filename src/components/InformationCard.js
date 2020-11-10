@@ -1,5 +1,7 @@
 import React from "react";
 import moment from "moment";
+import CallModal from "./CallModal";
+
 import {
   TelephoneFill,
   SignpostSplitFill,
@@ -19,7 +21,8 @@ function InformationCard() {
       </div>
       <div className="row" style={{ justifyContent: "center" }}>
         <div style={{ marginRight: "3px" }}>
-          <TelephoneFill size="38px" />
+          <CallModal></CallModal>
+          {/* <TelephoneFill size="38px" /> */}
           <p>Call</p>
         </div>
         <div style={{ marginLeft: "3px" }}>

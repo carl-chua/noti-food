@@ -11,7 +11,10 @@ import InformationCard from "./components/InformationCard";
 function App() {
   return (
     <div className="App">
+      <Header />
       <InformationCard />
+      <Footer />
+
       {/*
       <Router>
         <Route exact path="/" component={} />
