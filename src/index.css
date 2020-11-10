@@ -16,13 +16,3 @@ code {
 html {
   background-color: #ffdb58;
 }
-
-footer {
-  margin-top: 1rem;
-  padding: 1rem;
-  background-color: rgb(235, 195, 255);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}

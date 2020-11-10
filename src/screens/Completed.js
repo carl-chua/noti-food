@@ -1,12 +1,14 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import InformationCard from "../components/InformationCard";
+import InformationCard3 from "../components/InformationCard3";
 
 export default function Main() {
   return (
     <div>
       <Header />
-      <InformationCard />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <InformationCard3 />
+      </div>
       <Footer />
     </div>
   );
