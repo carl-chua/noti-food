@@ -1,6 +1,7 @@
 import React from "react";
 import moment from "moment";
 import CallModal from "./CallModal";
+import Button from "react-bootstrap/Button";
 
 import {
   TelephoneFill,
@@ -26,7 +27,12 @@ function InformationCard() {
           <p>Call</p>
         </div>
         <div style={{ marginLeft: "3px" }}>
-          <SignpostSplitFill size="38px" />
+          <a href="https://www.google.com.sg/maps/place/Hua+Bee+Restaurant/@1.2836901,103.8281873,17z/data=!3m1!4b1!4m5!3m4!1s0x31da197bcb82be39:0x3c7287c8deb5ae76!8m2!3d1.2836901!4d103.8303813">
+            <Button variant="outline-primary">
+              <SignpostSplitFill />
+            </Button>
+          </a>
+
           <p>Directions</p>
         </div>
       </div>
