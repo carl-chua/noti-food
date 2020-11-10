@@ -31,7 +31,7 @@ function CardTwoBottom() {
         >
           Didn't receive any confirmation?
         </p>
-        <Link to="main">
+        <Link to="/">
           <p style={{ textDecoration: "underline", fontSize: "14px" }}>
             Try again!
           </p>

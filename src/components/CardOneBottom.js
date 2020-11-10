@@ -4,8 +4,11 @@ import {
   SignpostSplitFill,
   ChatLeftDotsFill,
 } from "react-bootstrap-icons";
+import { useHistory } from "react-router-dom";
 
 function CardOneBottom() {
+  const history = useHistory();
+
   return (
     <div>
       <div className="row" style={{ justifyContent: "center" }}>
@@ -27,6 +30,7 @@ function CardOneBottom() {
             backgroundColor: "#ffdb58",
             borderRadius: "5px",
           }}
+          onClick={() => history.push("/registered")}
         >
           Go
         </button>

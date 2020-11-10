@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import moment from "moment";
 import CallModal from "./CallModal";
 import Button from "react-bootstrap/Button";
 import CardTwoBottom from "./CardTwoBottom";
-
+import { useHistory } from "react-router-dom";
 import { SignpostSplitFill } from "react-bootstrap-icons";
 
 function InformationCard2() {
   const now = moment().format("DD MMM YYYY, h:mm a");
+  const history = useHistory();
+
+  useEffect(() => {
+    setTimeout(() => {
+      history.push("/notified");
+    }, 5000);
+  }, []);
 
   return (
     <div
