@@ -2,6 +2,7 @@ import React from "react";
 import moment from "moment";
 import CallModal from "./CallModal";
 import Button from "react-bootstrap/Button";
+import CardOneBottom from "./CardOneBottom";
 
 import {
   TelephoneFill,
@@ -13,11 +14,25 @@ function InformationCard() {
   const now = moment().format("DD MMM YYYY, h:mm a");
 
   return (
-    <div className="InformationCard">
+    <div
+      className="InformationCard"
+      style={{
+        paddingTop: "20px",
+        backgroundColor: "#ffffff",
+        width: "330px",
+        height: "550px",
+        borderRadius: "15px",
+        border: "1px",
+      }}
+    >
       <h5>Now preparing...</h5>
       <h1 className="OrderNumber">#241</h1>
       <h5>{now}</h5>
-      <div className="RestaurantName">
+      <div
+        style={{
+          width: "250px",
+        }}
+      >
         <h1>Hua Bee Bak Chor Mee</h1>
       </div>
       <div className="row" style={{ justifyContent: "center" }}>
@@ -32,17 +47,9 @@ function InformationCard() {
               <SignpostSplitFill />
             </Button>
           </a>
-
           <p>Directions</p>
         </div>
-      </div>
-      <div className="row" style={{ justifyContent: "center" }}>
-        <ChatLeftDotsFill />
-        <h4>Get notified through SMS!</h4>
-      </div>
-      <div className="row" style={{ justifyContent: "center" }}>
-        <input className="NumberInput" placeholder="e.g. 9123 4567" />
-        <button className="GoButton">Go</button>
+        <CardOneBottom />
       </div>
     </div>
   );

@@ -6,7 +6,9 @@ export default function Main() {
   return (
     <div>
       <Header />
-      <InformationCard />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <InformationCard />
+      </div>
       <Footer />
     </div>
   );
