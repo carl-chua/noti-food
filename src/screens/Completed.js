@@ -9,7 +9,6 @@ export default function Main() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <InformationCard3 />
       </div>
-      <Footer />
     </div>
   );
 }

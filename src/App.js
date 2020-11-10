@@ -14,7 +14,15 @@ function App() {
         <Route exact path="/registered" component={Registered} />
         <Route exact path="/notified" component={Completed} />
       </Router>
-      <Footer />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "28px",
+        }}
+      >
+        <Footer />
+      </div>
     </div>
   );
 }

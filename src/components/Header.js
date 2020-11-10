@@ -2,8 +2,10 @@ import React from "react";
 
 export default function Header() {
   return (
-    <h1>
-      <strong>Noti</strong>Food
-    </h1>
+    <div style={{ marginTop: "8px" }}>
+      <h1>
+        <strong>Noti</strong>Food
+      </h1>
+    </div>
   );
 }

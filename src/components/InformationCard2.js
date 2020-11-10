@@ -16,22 +16,39 @@ function InformationCard2() {
         paddingTop: "20px",
         backgroundColor: "#ffffff",
         width: "330px",
-        height: "550px",
+        height: "510px",
         borderRadius: "15px",
         border: "1px",
+        boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       }}
     >
-      <h5>Now preparing...</h5>
+      <div
+        style={{ marginBottom: "10px", marginTop: "12px", color: "#a7a3a3" }}
+      >
+        <h5>Now preparing...</h5>
+      </div>
       <h1 className="OrderNumber">#241</h1>
       <h5>{now}</h5>
       <div
         style={{
-          width: "250px",
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "20px",
+          marginBottom: "18px",
         }}
       >
-        <h1>Hua Bee Bak Chor Mee</h1>
+        <div
+          style={{
+            width: "250px",
+          }}
+        >
+          <h1>Hua Bee Bak Chor Mee</h1>
+        </div>
       </div>
-      <div className="row" style={{ justifyContent: "center" }}>
+      <div
+        className="row"
+        style={{ justifyContent: "center", marginBottom: "15px" }}
+      >
         <div style={{ marginRight: "3px" }}>
           <CallModal></CallModal>
           {/* <TelephoneFill size="38px" /> */}
@@ -46,9 +63,7 @@ function InformationCard2() {
           <p>Directions</p>
         </div>
       </div>
-      <div>
-        <CardTwoBottom />
-      </div>
+      <CardTwoBottom />
     </div>
   );
 }
