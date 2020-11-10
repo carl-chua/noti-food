@@ -1,6 +1,17 @@
 .App {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.AppNotNotified {
   text-align: center;
   background-color: #ffdb58;
+  font-family: "Work Sans", sans-serif;
+}
+
+.AppNotified {
+  text-align: center;
+  background-color: #83e576;
   font-family: "Work Sans", sans-serif;
 }
 

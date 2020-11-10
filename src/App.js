@@ -10,19 +10,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/registered" component={Registered} />
-        <Route exact path="/notified" component={Completed} />
+        <div className="AppNotNotified">
+          <Route exact path="/" component={Main} />
+          <Route exact path="/registered" component={Registered} />
+        </div>
+        <div className="AppNotified">
+          <Route exact path="/notified" component={Completed} />
+        </div>
       </Router>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "28px",
-        }}
-      >
-        <Footer />
-      </div>
     </div>
   );
 }
