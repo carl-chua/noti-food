@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import { Telephone } from "react-bootstrap-icons";
 
 export default function CallModal() {
   const [show, setShow] = useState(false);
@@ -10,8 +11,8 @@ export default function CallModal() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Go
+      <Button variant="outline-primary" onClick={handleShow}>
+        <Telephone></Telephone>
       </Button>
 
       <Modal centered show={show} onHide={handleClose}>
