@@ -1,8 +1,8 @@
 ## Design portfolio
-https://noti-food-portfolio.webflow.io/ \
+https://noti-food-portfolio.webflow.io/ 
 
 ## Figma prototype
-https://www.figma.com/file/ANWdBnWojxazaIXtDYias2/Prototype-Matthew?node-id=2%3A478 \
+https://www.figma.com/file/ANWdBnWojxazaIXtDYias2/Prototype-Matthew?node-id=2%3A478 
 
 # Getting Started with Create React App
 
